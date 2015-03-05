@@ -50,6 +50,7 @@
         <item>"1,1"</item>
         <item>"0,1"</item>
         <item>"7,1"</item>
+    </string-array>
 
     <!-- Vibrator pattern for feedback about a long screen/key press -->
     <integer-array name="config_longPressVibePattern">
@@ -371,6 +372,7 @@
     <bool name="config_enableMultiUserUI">true</bool>
 
     <!-- Performance profiles -->
+   
     <!-- string name="config_perf_profile_prop">sys.perf.profile</string -->
     <!-- string name="config_perf_profile_default_entry">1</string -->
 
