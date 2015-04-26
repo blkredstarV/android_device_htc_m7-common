@@ -40,11 +40,6 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01800000
 TARGET_KERNEL_CONFIG := broken_m7_defconfig
 TARGET_KERNEL_SOURCE := kernel/htc/msm8960
 
-# Custom Kernel Toolchains
-KERNEL_TOOLCHAIN_PREFIX := arm-cortex_a7-linux-gnueabihf-
-KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-arm-cortex_a7-linux-gnueabihf-linaro_4.9/bin"
-TARGET_GCC_VERSION_AND := arm-cortex_a7-linux-gnueabihf-linaro_4.9
-
 # Audio
 BOARD_USES_FLUENCE_INCALL := true  # use DMIC in call only
 BOARD_USES_SEPERATED_AUDIO_INPUT := true  # use distinct voice recognition use case

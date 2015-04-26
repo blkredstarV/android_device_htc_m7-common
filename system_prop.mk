@@ -22,6 +22,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=/system/vendor/lib/libqc-opt.so
 
+# Tweaks
+dalvik.vm.image-dex2oat-filter=everything 
+dalvik.vm.dex2oat-filter=everything
+
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.baseband.arch=mdm
