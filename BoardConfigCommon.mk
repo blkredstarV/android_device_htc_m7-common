@@ -42,6 +42,12 @@ TARGET_KERNEL_SOURCE := kernel/htc/msm8960
 # Custom Kernel Toolchains 
 KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9-linaro/bin/"
 
+# Broken Optimizations
+USE_O3 := true
+STRICT := true
+GRAPHITE := true
+LTO := true
+
 # Audio
 BOARD_USES_FLUENCE_INCALL := true  # use DMIC in call only
 BOARD_USES_SEPERATED_AUDIO_INPUT := true  # use distinct voice recognition use case
