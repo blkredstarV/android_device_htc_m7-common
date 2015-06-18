@@ -16,4 +16,7 @@
 
 <resources>
     <bool name="config_show_volumeRockerWake">true</bool>
+
+<!-- Config to show/hide Wifi Calling settings UI option -->
+    <bool name="config_wifi_calling_settings_supported">true</bool>
 </resources>
