@@ -30,6 +30,10 @@ dalvik.vm.dex2oat-filter=everything
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.baseband.arch=mdm
 
+# Scheduler
+PRODUCT_PROPERTY_OVERRIDES += \
+    sys.io.scheduler=row
+
 # Time services
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.timed.enable=true
